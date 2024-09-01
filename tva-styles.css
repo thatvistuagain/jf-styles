@@ -3,7 +3,7 @@
 }
 
 * {
-    font-feature-settings: 'liga', 'clig', 'onum', 'ss04' on;
+    font-feature-settings: 'liga', 'clig', 'lnum', 'ss04' on;
     font-synthesis: none;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -166,6 +166,10 @@ p.overview.detail-clamp-text {
     font-size: inherit;
     max-width: 80ch;
     text-wrap: balance;
+}
+
+.tagline {
+    font-style: italic;
 }
 
 /* Font size for the description */
@@ -1971,7 +1975,7 @@ progress::-webkit-progress-value {
 }
 
 :root {
-    --rounding: 12px;
+    --rounding: 6px;
 }
 
 /*hover zoom*/
