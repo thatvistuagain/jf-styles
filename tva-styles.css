@@ -11,6 +11,10 @@
     text-rendering: optimizeLegibility;
 }
 
+.skinHeader, html {
+    color: #fff
+}
+
 /* Limit Custom CSS code box size */
 #txtCustomCss,
 #txtLocalCustomCss {
@@ -1582,6 +1586,7 @@ progress::-webkit-progress-value {
 /*Enlarge button row on item page, even more on mobile*/
 .mainDetailButtons {
     font-size: 120%;
+    overflow-x: auto;
 }
 
 /* Fixes */
@@ -2000,7 +2005,7 @@ progress::-webkit-progress-value {
 .listItem {
     text-align: center;
     padding: 10px;
-    font-size: 12pt;
+    font-size: inherit;
 }
 
 /* Hide the listItemIcon */
@@ -2371,6 +2376,7 @@ button.is-emby-button:hover emby-button .navMenuOptionText {
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer {
     display: flex;
     flex-wrap: nowrap;
+    gap: 2rem;
     overflow-x: auto;
     padding-bottom: 0.5em;
     -webkit-overflow-scrolling: touch;
